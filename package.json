@@ -24,5 +24,14 @@
   "devDependencies": {
     "@stencil/core": "^1.8.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrakcho/primer-web-component.git"
+  },
+  "author": "Scrakcho",
+  "bugs": {
+    "url": "https://github.com/scrakcho/primer-web-component/issues"
+  },
+  "homepage": "https://github.com/scrakcho/primer-web-component#readme"
 }
