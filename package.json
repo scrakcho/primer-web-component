@@ -1,6 +1,6 @@
 {
   "name": "primer-web-component",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -19,10 +19,21 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "storybook": "start-storybook -s ./dist"
   },
   "devDependencies": {
-    "@stencil/core": "^1.8.4"
+    "@babel/core": "^7.8.4",
+    "@stencil/core": "^1.8.4",
+    "@storybook/addon-knobs": "^5.3.12",
+    "@storybook/addon-notes": "^5.3.12",
+    "@storybook/html": "^5.3.10",
+    "@types/jest": "24.0.25",
+    "@types/puppeteer": "1.19.0",
+    "babel-loader": "^8.0.6",
+    "jest": "24.9.0",
+    "jest-cli": "24.9.0",
+    "puppeteer": "1.19.0"
   },
   "license": "MIT",
   "repository": {
@@ -33,5 +44,6 @@
   "bugs": {
     "url": "https://github.com/scrakcho/primer-web-component/issues"
   },
-  "homepage": "https://github.com/scrakcho/primer-web-component#readme"
+  "homepage": "https://github.com/scrakcho/primer-web-component#readme",
+  "dependencies": {}
 }

@@ -28,5 +28,9 @@ describe('my-component', () => {
     component.setProperty('middle', 'Earl');
     await page.waitForChanges();
     expect(element.textContent).toEqual(`Hello, World! I'm James Earl Quincy`);
+
+    component.setProperty('year', '2020');
+    await page.waitForChanges();
+    expect(element.textContent).toEqual(`Hello, 2020 World! I'm James Earl Quincy`);
   });
 });

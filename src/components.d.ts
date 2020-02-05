@@ -23,6 +23,10 @@ export namespace Components {
     * The middle name
     */
     'middle': string;
+    /**
+    * The year date
+    */
+    'year': string;
   }
 }
 
@@ -53,6 +57,10 @@ declare namespace LocalJSX {
     * The middle name
     */
     'middle'?: string;
+    /**
+    * The year date
+    */
+    'year'?: string;
   }
 
   interface IntrinsicElements {
